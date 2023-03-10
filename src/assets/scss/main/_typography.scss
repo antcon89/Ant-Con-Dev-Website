@@ -1,0 +1,45 @@
+html,
+body,
+td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+ul li,
+ol li {
+  margin: 0px;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+a,
+i {
+  border: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
