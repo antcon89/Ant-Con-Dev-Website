@@ -36,6 +36,12 @@
                         <span class="second">Skills</span>
                       </a>
                     </li>
+                    <li>
+                      <a @click="openPdf" class="scrollactive-item style-resume">
+                        <span class="first">Resume</span>
+                        <span class="second">Resume <img src="../assets/img/pdf2.png" alt="PDF Icon" /></span>
+                      </a>
+                    </li>
                   </scrollactive>
                 </ul>
               </div>
@@ -116,6 +122,12 @@
                     >Skills</a
                   >
                 </li>
+                <li>
+                  <a href="#about" 
+                  class="scrollactive-item" 
+                  @click="() => { openPdf(); active = !active; }">Resume</a
+                  >
+                </li>
               </scrollactive>
             </ul>
           </div>
@@ -126,6 +138,8 @@
 </template>
 
 <script>
+import pdfFile from "../assets/pdf/resume.pdf";
+
 export default {
   components: {},
   data() {
@@ -133,6 +147,11 @@ export default {
       active: false,
       fixed: false,
     };
+  },
+  methods: {
+    openPdf() {
+      window.open(pdfFile, "_blank");
+    },
   },
 };
 </script>
@@ -225,4 +244,19 @@ export default {
   display: block;
 }
 
+.style-resume {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+  background-color: #f40e024c;
+}
+
+.style-resume:hover {
+  cursor: pointer;
+}
+
+.style-resume img {
+  height: 16px;
+  padding-bottom: 2px;
+}
 </style>
