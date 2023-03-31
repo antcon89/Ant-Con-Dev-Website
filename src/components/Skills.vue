@@ -21,7 +21,7 @@
     <div class="text padding-scoped">
       <div class="" v-scroll-reveal="{ delay: 60 }">
         <h4><span class="bg">People</span></h4>
-        <p class="font-weight-600">Leadership, Communication, Collaboration</p>
+        <p class="font-weight-600">Communication, Collaboration, Leadership</p>
       </div>
       <div class="" v-scroll-reveal="{ delay: 80 }">
         <h4><span class="bg">Other Tech</span></h4>
