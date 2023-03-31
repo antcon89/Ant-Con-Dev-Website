@@ -11,11 +11,11 @@
     <div class="text padding-scoped">
       <div class="" v-scroll-reveal="{ delay: 60 }">
         <h4><span class="bg">Front End</span></h4>
-        <p class="font-weight-600">Vue, Vuex, TypeScript, JavaScript, jQuery, React.js, Razor, Vuetify, Bootstrap, HTML, CSS</p>
+        <p class="font-weight-600">Vue, Vuex, TypeScript, JavaScript, jQuery, Razor, Vuetify, React.js, Bootstrap, CSS, HTML</p>
       </div>
       <div class="" v-scroll-reveal="{ delay: 80 }">
         <h4><span class="bg">Back End</span></h4>
-        <p class="font-weight-600">.NET, .NET Framework, C#, SQL, ASP.NET, ADO.NET, RESTful API</p>
+        <p class="font-weight-600">C#, .NET, .NET Framework, LINQ, SQL, ASP.NET, ADO.NET, RESTful API</p>
       </div>
     </div>
     <div class="text padding-scoped">
@@ -25,7 +25,7 @@
       </div>
       <div class="" v-scroll-reveal="{ delay: 80 }">
         <h4><span class="bg">Other Tech</span></h4>
-        <p class="font-weight-600">Git, Github, Agile, Jira, Trello, Visual Studio, VS Code, Postman, NPM/Yarn</p>
+        <p class="font-weight-600">Git, Github, MVC, Visual Studio, VS Code, SSMS, SDKs, Postman, Bash, NPM, Jira, Agile</p>
       </div>
     </div>
     <br>
