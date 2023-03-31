@@ -138,7 +138,7 @@
 </template>
 
 <script>
-import pdfFile from "../assets/pdf/Anthony-Connolly-2023-Resume.pdf";
+import pdfFile from "../assets/pdf/Anthony-Connolly-2023-Resume-v3.pdf";
 
 export default {
   components: {},

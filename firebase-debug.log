@@ -1,0 +1,33 @@
+[debug] [2023-03-31T22:43:11.695Z] ----------------------------------------------------------------------
+[debug] [2023-03-31T22:43:11.697Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\AntCon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-03-31T22:43:11.698Z] CLI Version:   11.24.0
+[debug] [2023-03-31T22:43:11.698Z] Platform:      win32
+[debug] [2023-03-31T22:43:11.698Z] Node Version:  v14.18.0
+[debug] [2023-03-31T22:43:11.699Z] Time:          Fri Mar 31 2023 15:43:11 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-03-31T22:43:11.699Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-31T22:43:11.799Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-31T22:43:11.800Z] > authorizing via signed-in user (anthonyconnolly89@gmail.com)
+[debug] [2023-03-31T22:43:11.800Z] [iam] checking project personal-website-f4cf5 for permissions ["firebase.projects.get"]
+[debug] [2023-03-31T22:43:11.802Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-f4cf5:testIamPermissions [none]
+[debug] [2023-03-31T22:43:11.802Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-f4cf5:testIamPermissions x-goog-quota-user=projects/personal-website-f4cf5
+[debug] [2023-03-31T22:43:11.802Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-f4cf5:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-31T22:43:12.051Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-f4cf5:testIamPermissions 200
+[debug] [2023-03-31T22:43:12.052Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-f4cf5:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-31T22:43:12.053Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 [none]
+[debug] [2023-03-31T22:43:12.248Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 200
+[debug] [2023-03-31T22:43:12.249Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 {"projectId":"personal-website-f4cf5","projectNumber":"95327737161","displayName":"personal website","name":"projects/personal-website-f4cf5","resources":{"hostingSite":"personal-website-f4cf5"},"state":"ACTIVE","etag":"1_441beb1a-e13a-4de1-8b07-2bae0b29cd8c"}
+[info] 
+[info] === Serving from 'C:\Users\AntCon\Desktop\WEBSITE\WebsiteAntCon'...
+[info] 
+[debug] [2023-03-31T22:43:12.254Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/personal-website-f4cf5/sites 
+[debug] [2023-03-31T22:43:12.713Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/personal-website-f4cf5/sites 200
+[debug] [2023-03-31T22:43:12.713Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/personal-website-f4cf5/sites {"sites":[{"name":"projects/personal-website-f4cf5/sites/personal-website-f4cf5","defaultUrl":"https://personal-website-f4cf5.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-31T22:43:12.714Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5/webApps/-/config [none]
+[debug] [2023-03-31T22:43:13.011Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5/webApps/-/config 200
+[debug] [2023-03-31T22:43:13.011Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5/webApps/-/config {"projectId":"personal-website-f4cf5","storageBucket":"personal-website-f4cf5.appspot.com","apiKey":"AIzaSyDupnncgRBvjUOFwqsiBP_BHJFrJtehFjc","authDomain":"personal-website-f4cf5.firebaseapp.com","messagingSenderId":"95327737161"}
+[debug] [2023-03-31T22:43:13.015Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 [none]
+[debug] [2023-03-31T22:43:13.181Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 200
+[debug] [2023-03-31T22:43:13.181Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-f4cf5 {"projectId":"personal-website-f4cf5","projectNumber":"95327737161","displayName":"personal website","name":"projects/personal-website-f4cf5","resources":{"hostingSite":"personal-website-f4cf5"},"state":"ACTIVE","etag":"1_441beb1a-e13a-4de1-8b07-2bae0b29cd8c"}
+[info] i  hosting[personal-website-f4cf5]: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] +  hosting[personal-website-f4cf5]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
